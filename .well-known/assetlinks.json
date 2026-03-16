@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.anonimosevex.twa",
+        "sha256_cert_fingerprints": ["DD:DA:62:83:03:A1:20:83:F9:9A:87:48:F2:EB:C7:AF:7B:E7:8F:05:AA:75:A2:E0:8B:86:84:D4:1C:23:5E:B3"]
+      }
+    }]
