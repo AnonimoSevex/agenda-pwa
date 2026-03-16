@@ -1,0 +1,28 @@
+{
+  "name": "Agenda Personal",
+  "short_name": "Agenda",
+  "description": "Calendario con clases, tareas, reuniones y música de fondo",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#060d1a",
+  "theme_color": "#1a2a4a",
+  "orientation": "portrait-primary",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["productivity", "education"],
+  "screenshots": []
+}

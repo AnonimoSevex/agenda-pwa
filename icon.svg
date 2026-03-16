@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a3a6a"/>
+      <stop offset="100%" style="stop-color:#0a1628"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60a5fa"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="80" fill="url(#bg)"/>
+  <rect x="60" y="120" width="392" height="332" rx="24" fill="rgba(255,255,255,0.07)" stroke="rgba(100,160,255,0.3)" stroke-width="2"/>
+  <!-- Header bar -->
+  <rect x="60" y="120" width="392" height="72" rx="24" fill="url(#accent)" opacity="0.9"/>
+  <rect x="60" y="168" width="392" height="24" fill="url(#accent)" opacity="0.9"/>
+  <!-- Calendar dots -->
+  <circle cx="152" cy="248" r="14" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="216" cy="248" r="14" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="280" cy="248" r="14" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="344" cy="248" r="14" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="152" cy="302" r="14" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="216" cy="302" r="24" fill="url(#accent)"/>
+  <circle cx="280" cy="302" r="14" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="344" cy="302" r="14" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="152" cy="356" r="14" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="216" cy="356" r="14" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="280" cy="356" r="14" fill="rgba(96,165,250,0.6)"/>
+  <circle cx="344" cy="356" r="14" fill="rgba(255,255,255,0.15)"/>
+  <!-- Month text hint -->
+  <rect x="110" y="143" width="80" height="8" rx="4" fill="rgba(255,255,255,0.8)"/>
+  <!-- Pin circles at top -->
+  <rect x="168" y="96" width="20" height="40" rx="10" fill="rgba(100,160,255,0.8)"/>
+  <rect x="324" y="96" width="20" height="40" rx="10" fill="rgba(100,160,255,0.8)"/>
+</svg>
